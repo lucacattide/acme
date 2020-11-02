@@ -1,0 +1,127 @@
+// Inizio SASS
+// Risoluzioni
+$break_2: 999px;
+$break_3: 749px;
+$break_4: 520px;
+$grid_0: 940px;
+$grid_3: 470px;
+// Colori
+$beige: #D8D2C4;
+$bianco: #fff;
+$blu: #1F515F;
+$blu-marino: #003E52;
+$fulvio: #F4145F;
+$ghiaccio: #D8D8D8;
+$gregorio: #5C5B59;
+$grey-border: #dedede;
+$grigio: #F4F4F4;
+$grigio-chiaro: #E6E6E6;
+$light-black: #1d1e2a;
+$metamorfosi: #600A06;
+$nero: #000;
+$rosso: #EE3C44;
+$samsa: #D9D9CB;
+$vintage: #B57E5E;
+$yellow: #f9cf03;
+// Fonts
+$acagiBold: "Akagi Pro W00 Bold";
+$sgraziato: 'sans-serif';
+$menu: 'baron_neueregular',
+$sgraziato;
+$paragrafo: 'montserratlight',
+$sgraziato;
+$sottotitolo: 'butlerblack',
+$sgraziato;
+$titolo: 'montserratmedium',
+$sgraziato;
+$titolo-sezione: 'baron_neue_boldbold',
+$sgraziato;
+// Fonts - Dimensioni
+$bold_font: 400;
+$font-size-landing: 4rem;
+$menu-size: 1.8rem;
+$paragrafo-discover-size: 1.5rem;
+$paragrafo-discover-size-1: 1.7rem;
+$paragrafo-discover-size-2: 2rem;
+$paragrafo-colori-size: 1.8rem;
+$paragrafo-interlinea: 2.2rem;
+$paragrafo-interlinea-1: 2.5rem;
+$paragrafo-interlinea-2: 2.7rem;
+$paragrafo-interlinea-3: 3rem;
+$paragrafo-quote-interlinea: 2.3rem;
+$paragrafo-tips-size: 1.4rem;
+$regular_font: 300;
+$sottotitolo-size: 7rem;
+$sottotitolo-size-1: 6rem;
+$sottotitolo-size-mobile: 4.5rem;
+$sottotitolo-size-mobile-1: 5rem;
+$sottotitolo-size-mobile-2: 4.7rem;
+$titolo-interlinea: 8.5rem;
+$titolo-interlinea-mobile: 5.5rem;
+$titolo-size: 13.7rem;
+$titolo-size-mobile: 8.7rem;
+$titolo-tips-size: 2.4rem;
+// Classi
+%sfondo {
+  background-attachment: scroll;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+// Generale
+a:focus,
+input:focus,
+.btn:focus {
+  outline: none !important;
+}
+
+b,
+strong {
+  font-weight: $bold_font;
+}
+
+body {
+  font-family: "akagiprow00-thinregular", sans-serif;
+  font-weight: $regular_font;
+}
+
+.clear {
+  clear: both;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: $regular_font;
+}
+
+h1 {
+  font-family: 'modern_no._20regular', serif;
+  font-weight: lighter;
+}
+
+.white {
+  background-color: white;
+}
+
+.yellow {
+  background-color: $yellow;
+}
+
+.black {
+  background-color: $light-black;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.deselezionato {
+  opacity: .2 !important;
+}
+
+// Fine SCSS

@@ -1,0 +1,4 @@
+RewriteEngine On 
+#RewriteBase http://dev.acme.com/
+RewriteRule ^home/?$ home.php [L]
+RewriteRule ^office/?$ office.php [L]
